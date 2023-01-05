@@ -1,0 +1,41 @@
+.textBox{
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+    padding-right: 10px;
+    
+}
+
+.textBox >form{
+    display: flex;
+    flex-direction: column;
+}
+
+.textBox__input{
+    padding: 20px;
+    display: flex;
+}
+
+.textBox__input > input{
+    flex: 1;
+    margin-left:20px;
+    font-size: 20px;
+    border: none;
+}
+
+.textBox__textButton{
+    background-color: gray !important;
+    border: none !important;
+    color: white !important;
+    font-weight: lighter !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width:80px !important;
+    height:40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}
+.textBox__imageInput{  
+    border: none;
+    padding: 10px;
+
+}
